@@ -1,0 +1,7 @@
+## 文件编译
+
+命令：mingw32-make
+
+## 上传固件
+
+命令：STM32_Programmer_CLI -c port=SWD -d build/Demo.bin 0x8000000 -s
