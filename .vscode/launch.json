@@ -10,7 +10,8 @@
             "executable": "./build/Demo.elf",
             "request": "launch",
             "type": "cortex-debug",
-            "servertype": "stutil"
+            "servertype": "stutil",
+            "svdFile": "./STM32F103.svd"
         }
     ]
 }
